@@ -68,16 +68,16 @@ footer{
     background-color: #222222;
     flex-shrink: 0px;
     bottom: 0px;
-    right:0px;
     left: 0px;
-    height: 20px;
+    height: 5%;
     padding: 20px;
     padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width:auto;
+    padding-left: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 90%;
     font-size:16px;
+    margin: 0px auto;
 }
 
 /* website title text */
@@ -90,6 +90,7 @@ footer{
 
 /* current page displayed top left */
 .currentpage{
+    font-size: 100%;
     display: inline;
     margin:0;
     bottom:0;
@@ -99,6 +100,7 @@ footer{
 
 /* all site pages top right */
 .pages{
+    font-size: 100%;
     display: inline;
     float:right;
     margin:0;
