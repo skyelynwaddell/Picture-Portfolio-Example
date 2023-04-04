@@ -28,6 +28,7 @@ img{
     height: 300px;
     margin: 10px;
     transition: all .5s;
+    max-width: 100%;;
 }
 
 /* image hover  */
@@ -109,4 +110,11 @@ footer{
     bottom:0;
     top: 0;
     padding-right: 20px;
+}
+
+@media screen and (max-width: 767px){
+    img{height:auto;max-width: 100%;margin:0;margin-bottom:18px;}
+    header {font-size:18px;}
+    footer{width:auto;font-size:16px;}
+    .title1{font-size:22px;border-right-width:0px;border-left-width:0px;}
 }
