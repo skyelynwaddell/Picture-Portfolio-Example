@@ -22,7 +22,7 @@ h1{
     text-align: center;
 }
 
-/* images  */
+/* all images  */
 img{
     transition: all .5s;
     width: 450px;
@@ -32,25 +32,13 @@ img{
     margin-bottom:18px;
 }
 
-/* image hover  */
+/* all image on mouse hover  */
 img:hover{
     cursor: pointer;
     transform: scale(1.1)
 }
 
-/* linkbar  */
-.linkbar {
-    padding: 20px;
-    border-bottom: 5px solid white;
-    text-decoration: none;
-    color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-/* links */
+/* all links */
 a{
     color: white;
     text-decoration: none;
