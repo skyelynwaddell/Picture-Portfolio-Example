@@ -24,11 +24,12 @@ h1{
 
 /* images  */
 img{
-    width: 450px;
-    height: 300px;
-    margin: 10px;
     transition: all .5s;
-    max-width: 100%;;
+    width: 450px;
+    height:auto;
+    max-width: 100%;
+    margin:0;
+    margin-bottom:18px;
 }
 
 /* image hover  */
@@ -55,46 +56,50 @@ a{
     text-decoration: none;
 }
 
+/* header */
 header{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
-    font-size:xx-large;
-    background-color:#5F5F5F;
+    background-color:#222222;
     position: absolute;
     width:100%;
     top:0px;
     right:0px;
     left:0px;
     bottom:0px;
-    height: 50px;
+    height: 35px;
     padding-top:10px;
+    font-size:18px;
 }
 
+/* footer */
 footer{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: x-large;
     text-align: center;
     color: white;
-    background-color: #5F5F5F;
+    background-color: #222222;
     flex-shrink: 0px;
     bottom: 0px;
     right:0px;
-    left: 100%;
-    width: 100%;
-    height: 40px;
+    left: 0px;
+    height: 20px;
     padding: 20px;
     padding-right: 20px;
     padding-left: 20px;
-    padding-top: 30px;
-    padding-bottom:20px;
-}
-.title1{
-    text-align: center;
-}
-.title2{
-    text-align: right;
+    padding-top: 20px;
+    width:auto;
+    font-size:16px;
 }
 
+/* website title text */
+.title1{
+    text-align: center;
+    font-size:22px;
+    border-right-width:0px;
+    border-left-width:0px;
+}
+
+/* current page displayed top left */
 .currentpage{
     display: inline;
     margin:0;
@@ -103,18 +108,12 @@ footer{
     padding-left: 20px;
 }
 
-.homepage{
+/* all site pages top right */
+.pages{
     display: inline;
     float:right;
     margin:0;
     bottom:0;
     top: 0;
     padding-right: 20px;
-}
-
-@media screen and (max-width: 767px){
-    img{height:auto;max-width: 100%;margin:0;margin-bottom:18px;}
-    header {font-size:18px;}
-    footer{width:auto;font-size:16px;}
-    .title1{font-size:22px;border-right-width:0px;border-left-width:0px;}
 }
